@@ -16,3 +16,17 @@ class students:
 s1 = students("mr.yes",1,"new delhi","international university")
 s1.show_name_roll_no()
 s1.show_city_college()
+
+#short version
+class students:
+    def __init__(self,name,roll_no,city,college):
+        self.name = name
+        self.roll_no = roll_no
+        self.city = city
+        self.college = college
+
+    def show_all(self):
+        print(f"name: {self.name}, roll_no: {self.roll_no}, city: {self.city}, college: {self.college}")
+
+s1 = students("mr.yes",1,"new delhi","international university")
+s1.show_all()

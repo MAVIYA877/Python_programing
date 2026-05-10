@@ -30,3 +30,10 @@ class students:
 
 s1 = students("mr.yes",1,"new delhi","international university")
 s1.show_all()
+
+#Ultra short version 
+class students:
+    def __init__(self,name,roll_no,city,college):
+        print(name,roll_no,city,college)
+
+s1 = students("mr,yes",1,"bengaluru","international university")
